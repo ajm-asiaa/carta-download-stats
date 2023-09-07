@@ -1,0 +1,2 @@
+0 12 * * * /usr/bin/python3 /var/www/stats/download-stats.py > /var/www/stats/output.log 2>&1
+1 12 * * * /bin/bash /var/www/stats/update_html.sh
